@@ -29,5 +29,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/gmdr1024/laravel-book' }
     ]
-  }
+  },
+  ignoreDeadLinks: 'localhostLinks',
+  base: '/laravel-book.github.io/'
 })
