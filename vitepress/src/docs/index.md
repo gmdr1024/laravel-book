@@ -5,21 +5,24 @@ layout: home
 hero:
   name: "Laravel Book"
   text: "LaravelによるWebアプリケーション開発の手引き"
-  tagline: My great project tagline
+  tagline: by gmdr1024
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: はじめに
+      link: /introduction
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 環境構築
+      link: /tool-install
+    - theme: alt
+      text: 設計
+      link: /
+    - theme: alt
+      text: 製造
+      link: /
+    - theme: alt
+      text: 単体試験
+      link: /
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

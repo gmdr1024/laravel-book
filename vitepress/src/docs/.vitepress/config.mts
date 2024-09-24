@@ -8,21 +8,26 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '入門',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'はじめに', link: '/introduction' }
+        ]
+      },
+      {
+        text: '環境構築',
+        items: [
+          { text: 'ツールインストール', link: '/tool-install' },
+          { text: 'Laravelインストール', link: '/laravel-install' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/gmdr1024/laravel-book' }
     ]
   }
 })
